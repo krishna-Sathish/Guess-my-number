@@ -84,19 +84,23 @@ hr{
     font-size: 18px;
   }
   .difference{
+    display: block;
     padding: 10px;
     margin-top: 50px;
 } 
 #again-btn{
     padding: 7px 7px;
     font-size: 18px;
+    margin-left: 40%;
 }
 h2{
     font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
 }
 hr{
     height: 15px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .question-mark div{
    
@@ -110,23 +114,28 @@ hr{
 
 }
 .bottom-value{
-    
-    justify-content:space-between;
-    padding: 20px;
+    display: block;
      
 }
 #input{
-    width: 50%;
+    height: 30px;
+    padding: 0px;
 
 }
 
 #check{
     padding: 10px 25px;
+    margin-top: 0px;
     
 
 }
+.common{
+display: flex;
+justify-content: space-around;
+}
 .common p{
     font-size: 12px;
+    margin-top: 20px;
 }
 .para p{
    font-size: 12px;
