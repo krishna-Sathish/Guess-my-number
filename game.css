@@ -119,7 +119,8 @@ hr{
 }
 #input{
     height: 30px;
-    padding: 0px;
+    padding: 10px;
+    width: 40%;
 
 }
 
@@ -132,6 +133,11 @@ hr{
 .common{
 display: flex;
 justify-content: space-around;
+}
+.common-para{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
 }
 .common p{
     font-size: 12px;
