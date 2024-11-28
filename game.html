@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Project</title>
+    <link rel="stylesheet" href="game.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        </style>
+</head>
+<body >
+    <div id="container">
+        <h1>Guess My Number!</h1>
+        <div class="difference">
+        <button id="again-btn">Again!</button>
+        <h2>Between 1 and 20</h2>
+         </div>
+        <hr>
+        <div class="question-mark">
+            <div>
+               <p>?</p> 
+            </div>
+        </div>
+        <div class="para">
+           <p id="msg-btn"></p>
+        </div>
+        <div class="bottom-value">
+            <div class="common">
+            <input type="number" id="input" autocomplete="off"><br>
+            <button id="check">Check</button>
+            </div>
+            <div class="common">
+                <!-- <p>Start Guess...</p> -->
+                <p>Your Score : <span class="score">20</span></p>
+                <p><span style="font-size: 20px;">😍</span> High Score : <span id="high-score">0</span></p>
+            </div>
+        </div>
+    </div>
+  
+    
+</body>
+<script src="game.js"></script>
+</html>
